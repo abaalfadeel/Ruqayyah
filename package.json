@@ -1,0 +1,31 @@
+{
+  "name": "journey-to-the-best-memory",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "رحلة إلى أجمل ذكرى ✨ — تجربة ويب تفاعلية سينمائية، هدية عيد ميلاد",
+  "homepage": ".",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.28.0",
+    "framer-motion": "^11.11.17",
+    "gsap": "^3.12.5",
+    "firebase": "^11.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3",
+    "vite-plugin-pwa": "^0.21.1",
+    "tailwindcss": "^3.4.15",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0"
+  }
+}
